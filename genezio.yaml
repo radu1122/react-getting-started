@@ -1,0 +1,10 @@
+name: react-getting-startedaaa
+region: us-east-1
+yamlVersion: 2
+frontend:
+    path: ./
+    publish: dist
+    scripts:
+        deploy: npm install
+        build: npm run build
+    subdomain: react-getting-startedaaa
